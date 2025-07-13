@@ -23,5 +23,7 @@ def parse_manufacturer_data(data: bytes) -> DeviceInfo:
             model = "River 3"
         elif serial.startswith("R33"):
             model = "Delta 2"
+        elif serial.startswith("BK31"):
+            model = "Stream AC Pro"
 
     return DeviceInfo(name=serial, serial=serial, model=model, battery=battery)
