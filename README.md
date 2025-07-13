@@ -42,3 +42,11 @@ While I suspect this will work with other Ecoflow devices that broadcast over Bl
 - Battery Level
 
 </p></details>
+
+<details><summary> STREAM AC PRO <i>(sensors: 1)</i> </summary>
+<p>
+
+*Sensors*
+- Battery Level
+
+</p></details>
